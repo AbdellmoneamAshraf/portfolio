@@ -1,8 +1,8 @@
 const cardclain = [
   {
     Id: 1,
-    Image: "./imgs/WhatsApp Image 2026-10-30 at 4.33.49 PM.jpeg",
-    Title: " Designer andFrontend Developerbased in Algeria.I'm currently a second-year Computer Science student, where I've developed a deep interest in designi intuitive and visually appealing user interfaces that bring ideas to life on the web I'm particularly focused on modern web design,responsive layouts,and interactive user experiences that blend beauty with funct",
+    Image: "./imgs/Screenshot 2026-11-05 230337.png",
+    Title: " My first front-end development project, built using HTML and CSS. It features a clean, modern design with a responsive layout and user-friendly interface. This project helped me improve my web development skills and gain practical experience.",
     Button: "see more",
     link:"https://abdellmoneamashraf.github.io/project/",
   },
