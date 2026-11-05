@@ -1,0 +1,19 @@
+@keyframes waveLine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.animate-wave-line {
+  background: linear-gradient(90deg, #ef4444, #3b82f6, #ef4444, #3b82f6, #ef4444);
+  background-size: 200% 100%;
+  animation: waveLine 3s linear infinite;
+}
+.animated-bg {
+  background: linear-gradient(90deg, #ef4444, #3b82f6, #ef4444, #3b82f6, #ef4444);
+  background-size: 200% 100%;
+  animation: waveLine 3s linear infinite;
+}
