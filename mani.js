@@ -6,6 +6,13 @@ const cardclain = [
     Button: "see more",
     link:"https://abdellmoneamashraf.github.io/project/",
   },
+  {
+    id:2,
+    Image: "./imgs/Screenshot 2026-11-12 142305.png",
+    Title:"TaskFlow is a responsive task management dashboard built with HTML, Tailwind CSS and JavaScript. You can add tasks, mark them as complete, and track your productivity and ongoing projects in one clean glass-style interface.",
+    Button: "visit site",
+    link:"https://abdellmoneamashraf.github.io/The-list/",
+  },
 
 ];
 // ---------------------------------------------------
