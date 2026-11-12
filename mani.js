@@ -64,10 +64,10 @@ animate();
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.remove('opacity-0', 'translate-x-10');
+      entry.target.classList.remove('opacity-0', 'translate-x-10', '-translate-x-10');
     }
     else {
-      entry.target.classList.add('opacity-0', 'translate-x-10');
+      entry.target.classList.add('opacity-0');
     }
   });
 },
@@ -76,29 +76,13 @@ const observer = new IntersectionObserver((entries) => {
   }
 );
 document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
-// ---------------------------------------------------------------
-const content = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.remove('opacity-0', '-translate-x-10');
-    }
-    else {
-      entry.target.classList.add('opacity-0', '-translate-x-10');
-    }
-  });
-},
-  {
-    threshold: 0.2,
-  }
-);
-document.querySelectorAll('.reveal').forEach((el) => content.observe(el));
 // -----------------------------------------------------------------
 // select:-
 const cards = document.querySelector('.cards');
 cardclain.forEach((P) =>{
   cards.innerHTML += `<div
-                class="projects w-75 p-5 flex flex-col gap-5 hover:border hover:border-red-600 hover:shadow-red-600 rounded-xl transition-all duration-700 hover:scale-105 hover:shadow-[0_0_20px_#ff0000]">
-                <div class="projects w-65 h-65 border border-red-600 shadow-red-600 shadow-md rounded-xl">
+                class="projects w-full max-w-[18.75rem] min-w-0 p-5 flex flex-col gap-5 hover:border hover:border-red-600 hover:shadow-red-600 rounded-xl transition-all duration-700 hover:scale-105 hover:shadow-[0_0_20px_#ff0000]">
+                <div class="projects aspect-square w-full border border-red-600 shadow-red-600 shadow-md rounded-xl">
                     <a class="h-full w-full overflow-hidden" target="_blank" href="${P.link}"><img
                             src="${P.Image}" alt="${P.Id}"
                             class="w-full h-full object-cover overflow-hidden rounded-xl"></a>

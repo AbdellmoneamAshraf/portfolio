@@ -14,12 +14,12 @@
 <body class="bg-black/99">
     <header class="sticky top-0 right-0 left-0 z-10">
         <div
-            class="header flex items-center justify-between px-8 py-4 bg-black/90 border-b border-red-500/40 text-white backdrop-blur-md ">
-            <div class="">
+            class="header flex flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-4 bg-black/90 border-b border-red-500/40 text-white backdrop-blur-md sm:px-8">
+            <div class="shrink-0">
                 <h1 class="font-serif text-xl"><span class="text-red-500">A</span>bdellmoniem.</h1>
             </div>
             <nav
-                class=" flex w-full flex-wrap items-center justify-center gap-1 rounded-xl border border-red-500 text-sm text-gray-300 shadow-md shadow-red-500 sm:w-auto sm:flex-nowrap sm:gap-3 sm:rounded-full lg:gap-5">
+                class="order-3 flex w-full flex-wrap items-center justify-center gap-1 rounded-xl border border-red-500 text-sm text-gray-300 shadow-md shadow-red-500 sm:order-none sm:w-auto sm:flex-nowrap sm:gap-3 sm:rounded-full lg:gap-5">
                 <a class="hover:text-red-600 hover:scale-105  px-4 py-2 rounded-lg transition duration-300"
                     href="#Home">Home</a>
                 <a class="hover:text-red-600 hover:scale-105  px-4 py-2 rounded-lg transition duration-300"
@@ -45,7 +45,7 @@
     <section id="Home" class="scroll-mt-20">
         <div
             class="one scroll-mt-20 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-12 lg:mx-25 lg:pt-10 lg:py-20 lg:mb-10">
-            <div class="content reveal opacity-0 transition-opacity translate-x-10 duration-700 ease-out delay-500">
+            <div class="content reveal opacity-0 transition-opacity duration-700 ease-out delay-500">
                 <h2 class="px-5 text-white font-ligh glow-text text-shadow text-2xl">Hi, I'm Abdellmoniem</h2>
                 <h4
                     class="px-5 text-red-600 font-bold animate-pulse drop-shadow-[0-0-10px_#ffffff] glow-text text-shadow  text-3xl">
@@ -77,11 +77,11 @@
     </section>
     <section id="About" class="scroll-mt-20">
         <div
-            class="section mx-auto flex max-w-55xl flex-col gap-7 mt-10 px-2 py-20  sm:px-1 lg:px-5 lg:flex-row lg:mx-65 lg:gap-7 ">
+            class="section mx-auto mt-10 flex max-w-6xl flex-col gap-7 px-4 py-12 sm:px-6 sm:py-16 lg:flex-row lg:gap-7 lg:px-8 lg:py-20">
 
             <div
-                class="content-img w-full min-w-0 flex justify-center reveal opacity-0 transition-opacity duration-700 ease-out delay-300 lg:w-1/2">
-                <img class="w-full h-full object-cover shadow-md shadow-red-600 border rounded-2xl border-red-600"
+                class="content-img flex w-full min-w-0 justify-center reveal opacity-0 transition-opacity duration-700 ease-out delay-300 lg:w-1/2">
+                <img class="aspect-[4/3] w-full max-h-96 rounded-2xl border border-red-600 object-cover shadow-md shadow-red-600"
                     src="./imgs/WhatsApp Image 2026-10-30 at 4.33.49 PM.jpeg" alt="my friends">
             </div>
             <div
@@ -90,7 +90,7 @@
                         class="text-red-600">Abdellmoniem</span>, Information Systems graduate - Class of 2025. A highly
                     responsible and organized individual with strong interest in technology and software development.
                     Eager to gain hands-on experience and contribute innovative projects in the IT field.</p>
-                <div class="grid lg:grid-cols-3 lg:gap-3 gap-3 ">
+                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="border border-red-600 shadow-red-600 shadow-sm p-5 rounded-xl ">
                         <h3 class="text-red-600 pb-2">Education</h3>
                         <p class="text-white">Al-Alsun Institute - Cairo, Egypt Bachelor's Degree in Information Systems (2022 - 2025)</p>
@@ -113,9 +113,9 @@
         </div>
     </section>
     <section id="Projects" class="scroll-mt-20">
-        <div class="cards grid grid-cols-1 gap-5 lg:grid-cols-4 lg:gap-12 lg:mx-25 lg:pt-10 lg:py-20 lg:mb-10"></div>
+        <div class="cards mx-auto grid max-w-6xl grid-cols-1 justify-items-center gap-5 px-4 py-12 sm:grid-cols-2 sm:px-6 lg:gap-8 lg:px-8"></div>
     </section>
-    <section id="Contact" class="animated-bg scroll-mt-20 px-6 py-20">
+    <section id="Contact" class="animated-bg scroll-mt-20 px-4 py-16 sm:px-6 sm:py-20">
         <div class="absolute inset-x-0 top-0 h-2 animate-wave-line"></div>
         <div class="mx-auto max-w-4xl ">
             <h2 class="text-center text-3xl font-bold text-white">
@@ -131,7 +131,7 @@
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abdoashraf7780@email.com" target="_blank"
                         class="flex items-center gap-4 rounded-xl border border-red-500/40 bg-black/90 p-4 text-gray-300 shadow-md shadow-red-500/10 transition duration-300 hover:scale-105 hover:border-red-500">
                         <span class="text-2xl">✉️</span>
-                        <span>abdoashraf7780@Email.com</span>
+                        <span class="break-all">abdoashraf7780@Email.com</span>
                     </a>
                     <a href="https://github.com/AbdellmoneamAshraf" target="_blank"
                         class="flex items-center gap-4 rounded-xl border border-red-500/40 bg-black/90 p-4 text-gray-300 shadow-md shadow-red-500/10 transition duration-300 hover:scale-105 hover:border-red-500">
